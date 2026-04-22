@@ -1,0 +1,35 @@
+# Neovim / Vim temporary files
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+.netrwhist
+Session.vim
+shada/
+
+# Undo / Backup directories (if you ever configure them to be local)
+undo/
+backups/
+view/
+
+# Logs
+*.log
+
+# Plugin Manager folders (LazyVim usually keeps these in AppData, but just in case)
+/lazy/
+/mason/
+node_modules/
+.python-version
+.venv/
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Local/Private configuration
+.neoconf.json
+.vscode/
+
+# We KEEP lazy-lock.json so your setup is reproducible on other machines
+!lazy-lock.json
