@@ -1,0 +1,274 @@
+
+==============================================================================
+lazy:                                                               2 ⚠️  1 ❌
+
+lazy.nvim ~
+- {lazy.nvim} version `11.17.5`
+- ✅ OK {git} `version 2.51.1.windows.1`
+- ✅ OK no existing packages found by other package managers
+- ✅ OK packer_compiled.lua not found
+
+luarocks ~
+- checking `hererocks` installation
+- ✅ OK no plugins require `luarocks`, so you can ignore any warnings below
+- ✅ OK {python3} `Python 3.12.10`
+- ❌ ERROR {C:/Users/LGSM120/AppData/Local/nvim-data/lazy-rocks/hererocks/bin/luarocks} not installed
+- ⚠️ WARNING {C:/Users/LGSM120/AppData/Local/nvim-data/lazy-rocks/hererocks/bin/lua} version `5.1` not installed
+- ⚠️ WARNING Lazy won't be able to install plugins that require `luarocks`.
+  Here's what you can do:
+   - fix your `luarocks` installation
+   - disable *hererocks* with `opts.rocks.hererocks = false`
+   - disable `luarocks` support completely with `opts.rocks.enabled = false`
+
+==============================================================================
+lazyvim:                                                                    ✅
+
+LazyVim ~
+- ✅ OK Using Neovim >= 0.11.2
+- ✅ OK `git` is installed
+- ✅ OK `rg` is installed
+- ✅ OK `fd` is installed
+- ✅ OK `lazygit` is installed
+- ✅ OK `fzf` is installed
+- ✅ OK `curl` is installed
+
+LazyVim nvim-treesitter ~
+- ✅ OK `C compiler` is installed
+- ✅ OK `curl` is installed
+- ✅ OK `tar` is installed
+- ✅ OK `tree-sitter (CLI)` is installed
+
+==============================================================================
+snacks:                                                             5 ⚠️ 11 ❌
+
+Snacks ~
+- ✅ OK setup called
+
+Snacks.bigfile ~
+- ✅ OK setup {enabled}
+
+Snacks.dashboard ~
+- ✅ OK setup {enabled}
+- ❌ ERROR setup did not run
+
+Snacks.explorer ~
+- ✅ OK setup {enabled}
+- ✅ OK 'powershell' `At line:1 char:3`
+- ✅ OK System trash command found
+
+Snacks.image ~
+- ⚠️ WARNING setup {disabled}
+- ❌ ERROR None of the tools found: 'kitty', 'wezterm', 'ghostty'
+- ❌ ERROR Tool not found: 'magick'
+- ❌ ERROR `magick` is required to convert images. Only PNG files will be displayed.
+- ✅ OK Terminal Dimensions:
+  - {size}: `720` x `432` pixels
+  - {scale}: `1.12`
+  - {cell}: `9` x `18` pixels
+- ❌ ERROR Tool not found: 'gs'
+- ⚠️ WARNING `gs` is required to render PDF files
+- ❌ ERROR None of the tools found: 'tectonic', 'pdflatex'
+- ⚠️ WARNING `tectonic` or `pdflatex` is required to render LaTeX math expressions
+- ❌ ERROR Tool not found: 'mmdc'
+- ⚠️ WARNING `mmdc` is required to render Mermaid diagrams
+- ❌ ERROR your terminal does not support the kitty graphics protocol
+- supported terminals: `kitty`, `wezterm`, `ghostty`
+
+Snacks.input ~
+- ✅ OK setup {enabled}
+- ❌ ERROR `vim.ui.input` is not set to `Snacks.input`
+
+Snacks.lazygit ~
+- ✅ OK {lazygit} installed
+
+Snacks.notifier ~
+- ✅ OK setup {enabled}
+- ❌ ERROR is not ready
+
+Snacks.picker ~
+- ✅ OK setup {enabled}
+- ❌ ERROR `vim.ui.select` is not set to `Snacks.picker.select`
+- ✅ OK Available Treesitter languages:
+    `regex`
+- ✅ OK 'git' `git version 2.51.1.windows.1`
+- ✅ OK 'rg' `ripgrep 15.1.0 (rev af60c2de9d)`
+- ✅ OK `Snacks.picker.grep()` is available
+- ✅ OK 'fd' `fd 10.4.2`
+- ✅ OK `Snacks.picker.files()` is available
+- ✅ OK `Snacks.picker.explorer()` is available
+- ✅ OK `SQLite3` is available
+
+Snacks.quickfile ~
+- ✅ OK setup {enabled}
+
+Snacks.scope ~
+- ✅ OK setup {enabled}
+
+Snacks.scroll ~
+- ✅ OK setup {enabled}
+
+Snacks.statuscolumn ~
+- ⚠️ WARNING setup {disabled}
+
+Snacks.terminal ~
+- ✅ OK shell configured
+  - `vim.o.shell`: cmd.exe
+  - `parsed`: { "cmd.exe" }
+
+Snacks.toggle ~
+- ✅ OK {which-key} is installed
+
+Snacks.words ~
+- ✅ OK setup {enabled}
+
+==============================================================================
+vim.deprecated:                                                             ✅
+
+- ✅ OK No deprecated functions detected
+
+==============================================================================
+vim.health:                                                                 ✅
+
+System Info ~
+- ✅ OK Up to date (0.12.2)
+- Nvim version: `v0.12.2` 
+- Operating system: Windows_NT 10.0.26200
+- Terminal: unknown
+- $TERM: xterm-256color
+
+Configuration ~
+- ✅ OK no issues found
+
+Runtime ~
+- ✅ OK $VIMRUNTIME: C:\Users\LGSM120\scoop\apps\neovim\current\share/nvim/runtime
+
+Performance ~
+- ✅ OK Build type: Release
+
+Remote Plugins ~
+- ✅ OK Up to date
+
+External Tools ~
+- ✅ OK ripgrep 15.1.0 (rev af60c2de9d) (C:\Users\LGSM120\scoop\shims\rg.EXE)
+- ✅ OK vim.ui.open: handler found (cmd.exe)
+- ✅ OK git version 2.51.1.windows.1 (C:\Program Files\Git\cmd\git.EXE)
+- ✅ OK curl 8.18.0 (C:\WINDOWS\system32\curl.EXE)
+  curl 8.18.0 (Windows) libcurl/8.18.0 Schannel zlib/1.3.1 WinIDN WinLDAP
+  Release-Date: 2026-01-07
+  Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s smb smbs smtp smtps telnet tftp ws wss
+  Features: alt-svc AsynchDNS HSTS HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM SPNEGO SSL SSPI threadsafe Unicode UnixSockets
+
+==============================================================================
+vim.lsp:                                                                    ✅
+
+- LSP log level : WARN
+- Log path: C:/Users/LGSM120/AppData/Local/nvim-data/lsp.log
+- Log size: 2 KB
+
+vim.lsp: Active Features ~
+
+vim.lsp: Active Clients ~
+- No active clients
+
+vim.lsp: Enabled Configurations ~
+
+vim.lsp: File Watcher ~
+- file watching "(workspace/didChangeWatchedFiles)" disabled on all clients
+
+vim.lsp: Position Encodings ~
+- No active clients
+
+==============================================================================
+vim.pack:                                                                   ✅
+
+vim.pack: basics ~
+- ✅ OK `vim.pack` is not used
+
+==============================================================================
+vim.provider:                                                             5 ⚠️
+
+Clipboard (optional) ~
+- ✅ OK Clipboard tool found: win32yank
+
+Node.js provider (optional) ~
+- Node.js: 24.14.1
+- Nvim node.js host: C:\nvm4w\nodejs\node_modules/neovim/bin/cli.js
+- ✅ OK Latest "neovim" npm/yarn/pnpm package is installed: 5.4.0
+
+
+Perl provider (optional) ~
+- ⚠️ WARNING No perl executable found
+  - ADVICE:
+    - See :help |provider-perl| for more information.
+    - You can disable this provider (and warning) by adding `let g:loaded_perl_provider = 0` to your init.vim
+- ⚠️ WARNING No usable perl executable found
+
+Python 3 provider (optional) ~
+- ⚠️ WARNING No Python executable found that can `import neovim`. Using the first available executable for diagnostics.
+- ⚠️ WARNING Could not load Python :
+  C:\Users\LGSM120\AppData\Local\Python\bin\python3.EXE does not have the "neovim" module.
+  Checking C:\ProgramData\chocolatey\bin\python3.14.EXE caused an unknown error. (4294967295, output: Cannot find file at 'c:\python314\python.exe' (c:\python314\python.exe). This usually indicates a missing or moved file.
+  ) Report this at https://github.com/neovim/neovim
+  python3.13 not found in search path or not executable.
+  C:\Users\LGSM120\AppData\Local\Python\bin\python3.12.EXE does not have the "neovim" module.
+  python3.11 not found in search path or not executable.
+  python3.10 not found in search path or not executable.
+  python3.9 not found in search path or not executable.
+  C:\Users\LGSM120\AppData\Local\Python\bin\python.EXE does not have the "neovim" module.
+  - ADVICE:
+    - See :help |provider-python| for more information.
+    - You can disable this provider (and warning) by adding `let g:loaded_python3_provider = 0` to your init.vim
+- Executable: Not found
+
+Python virtualenv ~
+- ✅ OK no $VIRTUAL_ENV
+
+Ruby provider (optional) ~
+- ⚠️ WARNING `ruby` and `gem` must be in $PATH.
+  - ADVICE:
+    - Install Ruby and verify that `ruby` and `gem` commands work.
+
+==============================================================================
+vim.treesitter:                                                             ✅
+
+Treesitter features ~
+- Treesitter ABI support: min 13, max 15
+- WASM parser support: false
+
+Treesitter parsers ~
+- ✅ OK Parser: bash                      ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\bash.so
+- ✅ OK Parser: c                         ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\c.so
+- ✅ OK Parser: c                    (not loaded), path: C:\Users\LGSM120\scoop\apps\neovim\current\lib\nvim\parser\c.dll
+- ✅ OK Parser: diff                      ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\diff.so
+- ✅ OK Parser: dtd                       ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\dtd.so
+- ✅ OK Parser: html                      ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\html.so
+- ✅ OK Parser: java                      ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\java.so
+- ✅ OK Parser: javascript                ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\javascript.so
+- ✅ OK Parser: jsdoc                     ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\jsdoc.so
+- ✅ OK Parser: json                      ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\json.so
+- ✅ OK Parser: json5                     ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\json5.so
+- ✅ OK Parser: lua                       ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\lua.so
+- ✅ OK Parser: lua                  (not loaded), path: C:\Users\LGSM120\scoop\apps\neovim\current\lib\nvim\parser\lua.dll
+- ✅ OK Parser: luadoc                    ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\luadoc.so
+- ✅ OK Parser: luap                      ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\luap.so
+- ✅ OK Parser: markdown                  ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\markdown.so
+- ✅ OK Parser: markdown             (not loaded), path: C:\Users\LGSM120\scoop\apps\neovim\current\lib\nvim\parser\markdown.dll
+- ✅ OK Parser: markdown_inline           ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\markdown_inline.so
+- ✅ OK Parser: markdown_inline      (not loaded), path: C:\Users\LGSM120\scoop\apps\neovim\current\lib\nvim\parser\markdown_inline.dll
+- ✅ OK Parser: printf                    ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\printf.so
+- ✅ OK Parser: python                    ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\python.so
+- ✅ OK Parser: query                     ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\query.so
+- ✅ OK Parser: query                (not loaded), path: C:\Users\LGSM120\scoop\apps\neovim\current\lib\nvim\parser\query.dll
+- ✅ OK Parser: regex                     ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\regex.so
+- ✅ OK Parser: toml                      ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\toml.so
+- ✅ OK Parser: tsx                       ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\tsx.so
+- ✅ OK Parser: typescript                ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\typescript.so
+- ✅ OK Parser: vim                       ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\vim.so
+- ✅ OK Parser: vim                  (not loaded), path: C:\Users\LGSM120\scoop\apps\neovim\current\lib\nvim\parser\vim.dll
+- ✅ OK Parser: vimdoc                    ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\vimdoc.so
+- ✅ OK Parser: vimdoc               (not loaded), path: C:\Users\LGSM120\scoop\apps\neovim\current\lib\nvim\parser\vimdoc.dll
+- ✅ OK Parser: xml                       ABI: 14, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\xml.so
+- ✅ OK Parser: yaml                      ABI: 15, path: C:\Users\LGSM120\AppData\Local\nvim-data\site\parser\yaml.so
+
+Treesitter queries ~
+
