@@ -83,12 +83,16 @@ return {
         host = "localhost",
         port = "${port}",
         executable = {
-          command = "js-debug-adapter.cmd",
-          args = { "${port}" },
+          command = "node",
+          args = {
+            vim.fn.stdpath("data") .. "/mason/packages/js-debug-adapter/js-debug/src/dapDebugServer.js",
+            "${port}",
+          },
         },
       }
       dap.adapters["pwa-node"] = adapter
       dap.adapters["node"] = adapter
+      return opts
     end,
   },
 }

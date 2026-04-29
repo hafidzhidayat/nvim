@@ -32,6 +32,8 @@ return {
           },
         },
       },
+      input = { enabled = true },
+      picker = { enabled = true },
     },
   },
 }

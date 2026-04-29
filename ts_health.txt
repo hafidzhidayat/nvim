@@ -1,6 +1,0 @@
-
-==============================================================================
-nvim-treesitter:                                                          1 ❌
-
-- ❌ ERROR No healthcheck found for "nvim-treesitter" plugin.
-
